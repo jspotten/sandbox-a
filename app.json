@@ -1,0 +1,12 @@
+{
+  "name": "evershop",
+  "script": "npm run start",
+  "instances": "max",
+  "autorestart": true,
+  "watch": true,
+  "ignore_watch": ["node_modules", "media"],
+  "cwd": "/var/www/html/current",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
